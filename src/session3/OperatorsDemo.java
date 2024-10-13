@@ -15,8 +15,8 @@ public class OperatorsDemo {
         System.out.println("Sum of a and b is: "+resArithmetic);
 
         //comparison (>, <, >=, <=, !=, ==)
-        //always returns boolean value (true/false)
-        //works with all data types (int, string, boolean etc)
+            //always returns boolean value (true/false)
+            //works with all data types (int, string, boolean etc)
 
         System.out.println(a > b);      //true
         System.out.println(a < b);      //false
@@ -30,18 +30,21 @@ public class OperatorsDemo {
         boolean resCompatison = a > b;
         System.out.println(resCompatison);
 
+            //разница между = и == в том, что == сравнивает 2 значения, а = присваивает значение
+
         //logical (&&, ||, !)
-        //always returns boolean value (true/false)
-        //works only with boolean variables
-/*      EXAMPLE
-        ___________________________________________
-        |   x    |   y   |  x&&y  | x||y   |  !x   |
-        |--------|-------|--------|--------|-------|
-        |  true  | true  |  true  | true   | false |
-        |  true  | false |  false | true   | false |
-        |  false | true  |  false | true   | false |
-        |  false | false |  false | false  | false |
- */
+            //always returns boolean value (true/false)
+            //works only with boolean variables
+    /*      EXAMPLE
+            ___________________________________________
+            |   x    |   y   |  x&&y  | x||y   |  !x   |
+            |--------|-------|--------|--------|-------|
+            |  true  | true  |  true  | true   | false |
+            |  true  | false |  false | true   | false |
+            |  false | true  |  false | true   | false |
+            |  false | false |  false | false  | false |
+     */
+
         boolean x = true;
         boolean y = false;
         System.out.println(x && y);     //false
